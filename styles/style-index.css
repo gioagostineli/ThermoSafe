@@ -46,3 +46,17 @@ nav {
 	
 	top:0;
 	}
+	
+.ts-visao{
+	background: silver; 
+}
+
+.ts-caracteristicas{
+	background: darkgrey; 
+}
+
+.ts-caracteristicas{background:linear-gradient(180deg,var(--ts-bg) 0%, var(--ts-surface) 100%);color:var(--ts-text-invert);padding:var(--sp-8) 0}
+.ts-caracteristicas-container{display:grid;grid-template-columns:1.2fr .8fr;gap:var(--sp-7);align-items:center}
+.ts-kpi{color:#cfe0ea;max-width:60ch;font-size:var(--fs-lg)}
+.ts-hero__ctas{display:flex;gap:var(--sp-2);margin-top:var(--sp-2)}
+.ts-hero__figure img{width:100%;border-radius:var(--radius-lg);box-shadow:var(--shadow)}
