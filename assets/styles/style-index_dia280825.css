@@ -1,0 +1,161 @@
+:root{
+	--ts-bg-color: white;
+	--ts-color-blue:#0A3D62;
+	--ts-margin-top: 30px; 
+	
+	
+}
+
+@font-face {
+	font-family: 'Outfit'; /*trazendo a fonte*/
+	src: url("assets/font/Outfit/Outfit-VariableFont_wght.ttf");
+}
+
+html{
+	
+}
+
+body{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background: var(--ts-bg-color);
+	font-family: 'Outfit', sans-serif; /* definindo a fonte padrão*/
+	
+	}
+	
+
+header{
+  
+  padding: 10px 0px 0px 0px;
+  text-align: center;
+}
+
+.ts-header{
+	border-bottom: 1px solid #e6eef3 ;	
+	top:0;
+	}
+
+nav {
+  margin-top: 20px;
+  padding: 24px;
+  text-align: center;
+  font-family: Raleway;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+#ts-nav {
+  background: #0A3D62;
+  
+}
+
+.ts-btn {
+  transition: 0.4s;
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 10px;
+  margin: 0 10px;
+}
+.ts-btn:hover {
+  background-color: #ffffff;
+  color: green;
+  padding: 24px 24px;
+}
+
+.ts-visao{
+	background: var(--ts-bg-color);
+	text-align: center; 
+	margin-top: var(--ts-margin-top);
+}
+	
+.ts-caracteristicas{
+	background: var(--ts-bg-color);
+	text-align: center; 
+	margin-top: var(--ts-margin-top);
+}
+
+.ts-caracteristicas-container{
+	display: flex;
+	gap: 15px;
+	width: 100%;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: space-evenly;	
+}
+
+.ts-kpi{
+	flex-grow: 0;
+	flex-basis: 32.19%;
+	flex-shrink: 0;	
+	border: 1px solid #000;
+	border-radius: 20px;
+	box-shadow: 5px 5px black;
+}
+
+.ts-produtos{
+	background: var(--ts-bg-color);
+	text-align: center;
+	margin-top: var(--ts-margin-top);
+}
+
+.ts-produtos-container{
+	display: flex;
+	gap: 15px;
+	width: 100%;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: space-evenly;
+}
+
+.ts-card{
+	flex-grow: 0;
+	flex-basis: 23.7%;
+	flex-shrink: 0;	
+	border: 1px solid #000;
+	border-radius: 20px;
+	box-shadow: 5px 5px black;	
+}
+
+.ts-slogan{
+	background: var(--ts-bg-color);
+	text-align: center;
+	margin-top: var(--ts-margin-top);
+}
+
+button{
+	padding: .9rem 1.2rem;
+    border-radius: 999px;
+    font-weight: 700;
+    letter-spacing: .2px;
+}
+
+.ts-footer{
+	background: gainsboro;
+	margin-top: var(--ts-margin-top);
+	
+}
+
+.ts-container-footer{
+	display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 4px 4px 4px 4px;
+	height: 20px;
+	margin-top: 10px;
+}
+
+section, footer {
+	color: var(--ts-color-blue); 
+}
+
+.ts-kpi:hover{
+	transform: scale(1.04);
+}
+
+.ts-card:hover{
+	transform: scale(1.04);
+}
+	
+
