@@ -1,0 +1,123 @@
+
+/* ================= TOKENS (pastéis ESG/ODS) ================= */
+:root{
+  --ts-blue:#5aa8e6;   /* azul pastel */
+  --ts-green:#7bd39a;  /* verde pastel */
+  --ts-teal:#7fd4c0;   /* teal pastel */
+  --ts-navy:#0A3D62;   /* navy para header */
+  --ts-gray-50:#f9fbfd;
+  --ts-gray-100:#f2f6fa;
+  --ts-gray-200:#e9f0f6;
+  --ts-gray-600:#4a5a66;
+  --ts-white:#ffffff;
+}
+
+/* ================= RESET & BASE ================= */
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  font-family: system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial,sans-serif;
+  color:var(--ts-gray-600);
+  background:var(--ts-white);
+  line-height:1.6;
+  animation:pageFade .6s ease-out both;
+}
+@keyframes pageFade{from{opacity:0; transform:translateY(8px)} to{opacity:1; transform:translateY(0)}}
+a{color:#2f7dc4; text-decoration:none}
+a:hover{opacity:.92}
+img{max-width:100%; height:auto; display:block}
+
+.ts-container{width:min(1200px,92%); margin-inline:auto}
+
+/* ================= BUTTONS ================= */
+.ts-btn{
+  display:inline-block;
+  padding:.9rem 1.2rem;
+  border-radius:999px;
+  font-weight:700;
+  letter-spacing:.2px;
+  transition:transform .15s ease, filter .2s ease, box-shadow .2s ease;
+  box-shadow:0 6px 14px rgba(10,61,98,.10);
+}
+.ts-btn:hover{transform:translateY(-2px); filter:brightness(.98)}
+.ts-btn--primary{background:var(--ts-blue); color:var(--ts-white)}
+.ts-btn--secondary{background:var(--ts-green); color:var(--ts-white)}
+
+/* Nav buttons (chips) */
+.ts-btn--nav{
+  padding:.55rem 1rem;
+  border-radius:999px;
+  color:var(--ts-navy);
+  font-weight:700;
+  background:var(--ts-gray-100);
+  box-shadow:none;
+  border:1px solid var(--ts-gray-200);
+}
+.ts-btn--blue{background:color-mix(in oklab, var(--ts-blue) 20%, white); border-color:color-mix(in oklab, var(--ts-blue) 40%, white)}
+.ts-btn--green{background:color-mix(in oklab, var(--ts-green) 20%, white); border-color:color-mix(in oklab, var(--ts-green) 40%, white)}
+.ts-btn--teal{background:color-mix(in oklab, var(--ts-teal) 20%, white); border-color:color-mix(in oklab, var(--ts-teal) 40%, white)}
+.ts-btn--gray{}
+
+/* ================= HEADER ================= */
+.ts-header{position:sticky; top:0; z-index:10; background:var(--ts-navy); color:var(--ts-white); border-bottom:1px solid #08314f}
+.ts-header__wrap{display:flex; align-items:center; justify-content:space-between; min-height:72px; gap:16px; padding-block:10px}
+.ts-nav__list{list-style:none; display:flex; gap:12px; margin:0; padding:0}
+
+/* ================= HERO ================= */
+.ts-hero{
+  background: linear-gradient(135deg, var(--ts-gray-50), var(--ts-gray-100));
+  padding: 44px 0 24px;
+}
+.ts-hero__inner{display:grid; gap:28px; grid-template-columns: 1.1fr .9fr; align-items:center}
+@media (max-width: 880px){ .ts-hero__inner{grid-template-columns: 1fr} }
+.ts-hero__copy h1{margin:.2rem 0 .4rem 0; font-size: clamp(1.9rem, 3.2vw, 2.8rem); color:#173853}
+.ts-hero__subtitle{max-width: 720px; margin: 0 0 .8rem 0}
+.ts-hero__ctas{display:flex; gap:12px; flex-wrap:wrap}
+
+/* ================= HIGHLIGHTS ================= */
+.ts-highlights{padding: 30px 0 10px}
+.ts-highlights__grid{display:grid; gap:18px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr))}
+.ts-kpi{
+  background: var(--ts-gray-100);
+  border:1px solid var(--ts-gray-200);
+  border-radius: 16px;
+  padding: 16px 18px;
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+.ts-kpi:hover{transform: translateY(-3px); box-shadow:0 10px 18px rgba(23,56,83,.08)}
+.ts-kpi h2{margin:.1rem 0 .25rem 0; font-size:1.1rem; color:#1d4d72}
+
+/* ================= CARDS ================= */
+.ts-cards{padding: 26px 0 14px}
+.ts-cards__grid{display:grid; gap:18px; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr))}
+.ts-card{
+  background:#fff; border:1px solid var(--ts-gray-200); border-radius:16px; padding:18px;
+  box-shadow:0 8px 20px rgba(10,61,98,.06);
+  transition:transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.ts-card:hover{transform:translateY(-4px); box-shadow:0 16px 32px rgba(10,61,98,.10); border-color:#d9e7f3}
+.ts-card h3{margin:.1rem 0 .25rem 0; font-size:1.15rem; color:#204a6b}
+.ts-link{font-weight:700}
+
+/* efeito de entrada */
+.ts-fade-in{opacity:0; transform:translateY(10px); animation:cardIn .7s ease forwards}
+.ts-card:nth-child(1){animation-delay:.05s}
+.ts-card:nth-child(2){animation-delay:.15s}
+.ts-card:nth-child(3){animation-delay:.25s}
+.ts-card:nth-child(4){animation-delay:.35s}
+@keyframes cardIn{to{opacity:1; transform:translateY(0)}}
+
+/* ================= CTA ================= */
+.ts-cta{
+  background: linear-gradient(135deg, color-mix(in oklab, var(--ts-blue) 10%, white), color-mix(in oklab, var(--ts-green) 10%, white));
+  padding: 28px 0 40px;
+  text-align:center;
+  margin-top: 10px;
+}
+.ts-cta h2{margin: 0 0 .35rem 0; font-size: clamp(1.3rem, 2.5vw, 1.9rem); color:#17405e}
+
+/* ================= FOOTER ================= */
+.ts-footer{background:var(--ts-gray-100); border-top:1px solid var(--ts-gray-200); color:#3f5565}
+.ts-footer__wrap{display:flex; align-items:center; justify-content:space-between; gap:12px; padding:14px 0}
+@media (max-width:720px){.ts-footer__wrap{flex-direction:column; text-align:center}}
