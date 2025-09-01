@@ -2,7 +2,9 @@
   --ts-bg-color: white;
   --ts-color-blue:#0A3D62;
   --ts-margin-top: 30px; 
-}
+  --ts-color-verde:MediumAquamarine;
+  --ts-color-azul:LightSkyBlue;
+  --ts-color-cinza:Silver;
 
 /* Fonte */
 @font-face {
@@ -26,7 +28,10 @@ body{
   font-family: 'Outfit', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   color: var(--ts-color-blue);
 }
-
+.ts-logo{
+	margin-left: 20px;
+	
+}
 /* Container central 80% */
 .page{ width:80%; margin-inline:auto; }
 
@@ -79,6 +84,28 @@ body{
   border:1px solid #000; border-radius:20px; box-shadow:5px 5px black; padding:16px; background:#fff;
   transition:transform .15s ease;
 }
+.ts-kpi-telemetria{
+	background: var(--ts-color-cinza);
+}
+.ts-kpi-conformidade{
+	background: var(--ts-color-azul);
+}
+.ts-kpi-eficiencia{
+	background: var(--ts-color-verde);
+}
+.ts-card-frio{
+	background: var(--ts-color-cinza);
+}
+.ts-card-agua{
+	background: var(--ts-color-azul);
+}
+.ts-card-ar{
+	background: var(--ts-color-verde);
+}
+.ts-card-bts{
+	background: var(--ts-color-cinza);
+}
+
 .ts-kpi:hover, .ts-card:hover{ transform:scale(1.04); }
 
 /* CTA */
