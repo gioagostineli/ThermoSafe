@@ -5,6 +5,7 @@
   --ts-color-verde:MediumAquamarine;
   --ts-color-azul:LightSkyBlue;
   --ts-color-cinza:Silver;
+  --ts-font: Outfit, system-ui, Segoe UI, Roboto, Arial, sans-serif;
 	
 	
 }
@@ -27,7 +28,7 @@ body{
 	background-repeat: repeat;
 	background-position: top left;
 	background-size: 140px auto;
-	font-family: 'Outfit', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+	font-family: var(--ts-font);
 	color: var(--ts-color-blue);
 	}
 	
@@ -61,7 +62,7 @@ nav {
   margin-top: 20px;
   padding: 24px;
   text-align: center;
-  font-family: 'Outfit', system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-family: var(--ts-font);
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
 }
 
