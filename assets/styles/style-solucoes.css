@@ -10,11 +10,7 @@
 	border-radius:16px; box-shadow:0 2px 12px rgba(0,0,0,.08);
 	display:flex; gap:15px; flex-wrap:wrap; justify-content:space-evenly; margin-top:12px;
 }
-.ts-kpi{
-  flex:1 1 280px; max-width:32%;
-  border:1px solid #000; border-radius:20px; box-shadow:5px 5px black; padding:16px; background:#fff;
-  transition:transform .15s ease;
-}
+
 .ts-kpi-cadeia{
 	background: var(--ts-color-cinza);
 }
@@ -24,7 +20,7 @@
 .ts-kpi-hvac{
 	background: var(--ts-color-verde);
 }
-}
+
 .ts-kpi-bts{
 	background: var(--ts-color-cinza);
 }
