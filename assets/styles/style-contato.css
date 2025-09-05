@@ -1,5 +1,5 @@
 .ts-card-contato{
-     width: 20%;
+     width: 100%;
      margin-left: auto;
      margin-right: auto;
      text-align: center;
@@ -14,11 +14,33 @@
      border-radius:16px;
      box-shadow:0 2px 12px rgba(0,0,0,.08);
 }
- input, textarea, button{
+ input{
      border-radius: 16px;
      margin-bottom: 20px;
      box-shadow: 10px 5px 5px var(--ts-color-blue);
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
 }
+
+textarea{
+     border-radius: 16px;
+     margin-bottom: 20px;
+     box-shadow: 10px 5px 5px var(--ts-color-blue);
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+}
+
+button{
+     border-radius: 16px;
+     margin-bottom: 20px;
+     box-shadow: 10px 5px 5px var(--ts-color-blue);
+     width: 10%;
+     margin-left: auto;
+     margin-right: auto;
+}
+
  button{
      padding:.9rem 1.2rem;
      border-radius:999px;
