@@ -23,7 +23,7 @@
     /* espaço entre logos */
      will-change: transform;
     /* dica p/ GPU */
-     animation: ts-marquee 30s linear infinite;
+     animation: ts-marquee 14s linear infinite;
 }
  .ts-clientes-imagens:hover .ts-clientes-apresentacao{
      animation-play-state: paused;
