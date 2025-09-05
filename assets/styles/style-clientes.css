@@ -1,64 +1,74 @@
 .ts-clientes-topo{
-	background:#fff; margin-top:var(--ts-margin-top); padding:24px;
-	border-radius:16px; box-shadow:0 2px 12px rgba(0,0,0,.08);
+     background:#fff;
+     margin-top:var(--ts-margin-top);
+     padding:24px;
+     border-radius:16px;
+     box-shadow:0 2px 12px rgba(0,0,0,.08);
 }
-
-
-.ts-clientes-imagens{
-  background:#fff;
-  margin-top: var(--ts-margin-top);
-  padding: 16px;
-  border-radius:16px;
-  box-shadow:0 2px 12px rgba(0,0,0,.08);
-
-  overflow: hidden;        /* esconde o que sai da “janela” */
-  position: relative;
+ .ts-clientes-imagens{
+     background:#fff;
+     margin-top: var(--ts-margin-top);
+     padding: 16px;
+     border-radius:16px;
+     box-shadow:0 2px 12px rgba(0,0,0,.08);
+     overflow: hidden;
+    /* esconde o que sai da “janela” */
+     position: relative;
 }
-
-.ts-clientes-apresentacao{
-  display: inline-flex;     /* linha contínua */
-  align-items: center;
-  gap: 36px;                /* espaço entre logos */
-  will-change: transform;   /* dica p/ GPU */
-  animation: ts-marquee 30s linear infinite;
+ .ts-clientes-apresentacao{
+     display: inline-flex;
+    /* linha contínua */
+     align-items: center;
+     gap: 36px;
+    /* espaço entre logos */
+     will-change: transform;
+    /* dica p/ GPU */
+     animation: ts-marquee 30s linear infinite;
 }
-.ts-clientes-imagens:hover .ts-clientes-apresentacao{
-  animation-play-state: paused; /* pausa ao passar o mouse */
+ .ts-clientes-imagens:hover .ts-clientes-apresentacao{
+     animation-play-state: paused;
+    /* pausa ao passar o mouse */
 }
-
-/* Cada logo: altura padronizada; width auto p/ preservar proporção */
-.ts-clientes-apresentacao img{
-  height: 64px;
-  width: auto;
-  object-fit: contain;
-  filter: grayscale(0);
-  opacity: .95;
-  transition: transform .2s ease, opacity .2s ease, filter .2s ease;
+/* Cada logo: altura padronizada;
+ width auto p/ preservar proporção */
+ .ts-clientes-apresentacao img{
+     height: 64px;
+     width: auto;
+     object-fit: contain;
+     filter: grayscale(0);
+     opacity: .95;
+     transition: transform .2s ease, opacity .2s ease, filter .2s ease;
 }
-.ts-clientes-apresentacao img:hover{
-  transform: scale(1.05);
-  opacity: 1;
+ .ts-clientes-apresentacao img:hover{
+     transform: scale(1.05);
+     opacity: 1;
 }
-
 /* Animação: move metade do conteúdo (porque duplicamos a sequência) */
-@keyframes ts-marquee{
-  from { transform: translateX(0); }
-  to   { transform: translateX(-50%); }
+ @keyframes ts-marquee{
+     from {
+         transform: translateX(0);
+    }
+     to {
+         transform: translateX(-50%);
+    }
 }
-
 /* ========= Responsivo ========= */
-@media (max-width: 900px){
-  .ts-clientes-apresentacao{
-    gap: 24px;
-    animation-duration: 36s; /* um pouco mais lento no mobile */
-  }
-  .ts-clientes-apresentacao img{ height: 52px; }
+ @media (max-width: 900px){
+     .ts-clientes-apresentacao{
+         gap: 24px;
+         animation-duration: 36s;
+        /* um pouco mais lento no mobile */
+    }
+     .ts-clientes-apresentacao img{
+         height: 52px;
+    }
 }
-
-@media (max-width: 600px){
-  .ts-clientes-apresentacao{
-    gap: 20px;
-    animation-duration: 40s;
-  }
-  .ts-clientes-apresentacao img{ height: 44px; }
+ @media (max-width: 600px){
+     .ts-clientes-apresentacao{
+         gap: 20px;
+         animation-duration: 40s;
+    }
+     .ts-clientes-apresentacao img{
+         height: 44px;
+    }
 }

@@ -1,21 +1,30 @@
-fieldset{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: Gainsboro;
-  border-radius: 10px;
-  box-shadow: 10px 5px 5px black;
+.ts-card-contato{
+     width: 20%;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
 }
-
-input, textarea, button{
-  border-radius: 10px;  
-  margin-bottom: 20px; 
-  box-shadow: 10px 5px 5px black;
-
+ fieldset{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     background:#fff;
+     margin-top:var(--ts-margin-top);
+     padding:10px;
+     border-radius:16px;
+     box-shadow:0 2px 12px rgba(0,0,0,.08);
 }
-
-button{
-  background-color: green;
-  width: 75px;
-  height: 50px;
+ input, textarea, button{
+     border-radius: 16px;
+     margin-bottom: 20px;
+     box-shadow: 10px 5px 5px var(--ts-color-blue);
 }
+ button{
+     padding:.9rem 1.2rem;
+     border-radius:999px;
+     font-weight:700;
+     border:2px solid #0A3D62;
+     color:#0A3D62;
+     background:#fff;
+}
+ 
