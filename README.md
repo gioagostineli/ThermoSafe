@@ -56,7 +56,7 @@
 - `assets/styles/style-*.css` — Estilos do tema institucional
 
 👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓 Padrão de Formatação
-Este projeto utiliza arquivos de configuração para manter **padronização de código** entre todos os desenvolvedores.
+- Este projeto utiliza arquivos de configuração para manter **padronização de código** entre todos os desenvolvedores.
 
 ## 📌 Arquivos incluídos
 - `.editorconfig` → garante indentação consistente (tab = 4 espaços).
