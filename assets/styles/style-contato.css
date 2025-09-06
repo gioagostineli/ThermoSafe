@@ -4,7 +4,8 @@
      margin-right: auto;
      text-align: center;
 }
- fieldset{
+
+fieldset{
      display: flex;
      flex-direction: column;
      align-items: center;
@@ -14,41 +15,14 @@
      border-radius:16px;
      box-shadow:0 2px 12px rgba(0,0,0,.08);
 }
- input{
+
+input{
      border-radius: 16px;
      margin-bottom: 20px;
      box-shadow: 10px 5px 5px var(--ts-color-blue);
      width: 100%;
      margin-left: auto;
      margin-right: auto;
-}
-
-textarea{
-     border-radius: 16px;
-     margin-bottom: 20px;
-     box-shadow: 10px 5px 5px var(--ts-color-blue);
-     width: 80%;
-     height: 150px;
-     margin-left: auto;
-     margin-right: auto;
-}
-
-button{
-     border-radius: 16px;
-     margin-bottom: 20px;
-     box-shadow: 10px 5px 5px var(--ts-color-blue);
-     width: 10%;
-     margin-left: auto;
-     margin-right: auto;
-}
-
- button{
-     padding:.9rem 1.2rem;
-     border-radius:999px;
-     font-weight:700;
-     border:2px solid #0A3D62;
-     color:#0A3D62;
-     background:#fff;
 }
 .ts-form-row{
      display:flex;
@@ -59,15 +33,51 @@ button{
      gap: 16px;
 
 }
+
 .ts-form-row label{
      flex: 0 0 10%;  /*ocupa 20% */
      font-weight:600;
      text-align: right;
 }
+
 .ts-form-row input{
      flex:1;
      padding: 10px;
      border: 1px solid#ccc;
      border-radius: 8px;
      font-size: 16px;
+}
+
+textarea{
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+     height: 150px;
+     border: 1px solid#ccc;
+     border-radius: 16px;
+     margin-bottom: 20px;
+     padding: 10px;
+     box-shadow: 10px 5px 5px var(--ts-color-blue);
+     font-size: 16px;     
+     font-family: inherit;   /* 🔹 garante mesma fonte dos inputs */
+}
+
+button{
+     padding:.9rem 1.2rem;
+     border-radius:999px;
+     font-weight:700;
+     border:2px solid #0A3D62;
+     color:#0A3D62;
+     background:#fff;
+     width: 10%;
+     margin-left: auto;
+     margin-right: auto;
+     font-size: 16px;
+}
+
+/* cor do placeholder do textarea e inputs */
+input::placeholder,
+textarea::placeholder {
+  color: #6e6e86;   /* um cinza médio visível sobre o fundo claro */
+  opacity: 1;       /* alguns browsers reduzem a opacidade por padrão */
 }
