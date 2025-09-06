@@ -11,9 +11,9 @@
 
 - **Aviso**: As badges **ANVISA/RDC 430** e **LGPD** indicam **alinhamento e boas práticas**.
 - Não constituem atestado oficial ou certificação por parte das autoridades competentes.
-
-👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓ThermoSafe — Temperatura e Umidade (24×7)
 ---
+👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓ThermoSafe — Temperatura e Umidade (24×7)
+
 
 ## 🔎 Visão Geral 
 
@@ -26,8 +26,6 @@
 
 > **Slogan**: *Confiabilidade em cada número.*
 
----
-
 ## 🚀 Principais Recursos
 - **Leituras em tempo real** (ESP32) com *buffer offline* e reenvio confiável.
 - **Alertas multicanal** (WhatsApp/e-mail) quando a temperatura sai do *range*.
@@ -36,8 +34,6 @@
 - **Segurança**: TLS 1.2/1.3, LGPD, segregação de acessos e registros de auditoria.
 - **Integração** com bancos **MariaDB/Aurora** (AWS RDS) e armazenamento em **S3**.
 - **Escalabilidade**: arquitetura pronta para centenas/milhares de módulos (ESP32).
-
----
 
 ## 🧭 Páginas do Site
 - `index.html` — Página inicial (visão geral e diferenciais)
@@ -55,6 +51,7 @@
 - `assets/images/logo` — Logo em 3 tamanhos para responsividade
 - `assets/styles/style-*.css` — Estilos do tema institucional
 
+---
 👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓 Padrão de Formatação
 - Este projeto utiliza arquivos de configuração para manter **padronização de código** entre todos os desenvolvedores.
 
@@ -95,8 +92,6 @@
   - `t_monitores.status_operacional`: derivado de `data_ultima_leitura` vs. parâmetro em `t_configuracao`.
 
 > Consulte a modelagem/ERD para entidades complementares (monitores, incidentes, triggers, integrações).
-
----
 
 ## ⚙️ Setup Rápido (Apenas para o Desenvolvimento!!!)
 ### Pré-requisitos
@@ -158,8 +153,6 @@ Dashboards Streamlit:
 ```bash
 streamlit run dashboard.py --server.port %STREAMLIT_PORT%
 ```
-
----
 
 ## 🧪 Qualidade e Observabilidade
 - **Logs de aplicação** + `t_logs` e `t_log_trigger` no banco.
