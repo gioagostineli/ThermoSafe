@@ -78,7 +78,7 @@
 
 ---
 👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓 Plataforma ThermoSafe
-Uma pequena descrição de como foi feito a Plataforma ThermoSafe para os usuários e operação do sistema.
+- Uma pequena descrição de como foi feito a Plataforma ThermoSafe para os usuários e operação do sistema.
 
 ## Segurança
 - **Criptografia ponta a ponta** (TLS 1.2/1.3; opção mTLS por dispositivo).
