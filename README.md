@@ -55,7 +55,7 @@
 - `assets/images/logo` — Logo em 3 tamanhos para responsividade
 - `assets/styles/style-*.css` — Estilos do tema institucional
 
-👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓 Padrão de Formatação — Site ThermoSafe
+👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓 Padrão de Formatação
 Este projeto utiliza arquivos de configuração para manter **padronização de código** entre todos os desenvolvedores.
 
 ## 📌 Arquivos incluídos
@@ -167,8 +167,7 @@ streamlit run dashboard.py --server.port %STREAMLIT_PORT%
 - **Backups** diários; restauração testada; **multi-AZ** (RDS).
 
 ---
-👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓A Comunicação do Sistema ThermoSafe
-Relacionamento com os stakeholders
+👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓ThermoSafe e os Stakeholders
 
 ## 📄 Licença
 Distribuído sob licença **MIT** (para o site da ThermoSafe).
