@@ -77,8 +77,8 @@ Este projeto utiliza arquivos de configuração para manter **padronização de 
   - **Quebra de linha:** padrão Unix (LF).
 
 ---
-#👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓 Plataforma ThermoSafe
-A seguir, uma pequena descrição de como foi feito a Plataforma ThermoSafe para os usuários e operação do sistema.
+👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓 Plataforma ThermoSafe
+Uma pequena descrição de como foi feito a Plataforma ThermoSafe para os usuários e operação do sistema.
 
 ## Segurança
 - **Criptografia ponta a ponta** (TLS 1.2/1.3; opção mTLS por dispositivo).
@@ -167,9 +167,8 @@ streamlit run dashboard.py --server.port %STREAMLIT_PORT%
 - **Backups** diários; restauração testada; **multi-AZ** (RDS).
 
 ---
-#👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓A Comunicação do Sistema ThermoSafe
-A seguir, uma pequena descrição de como foi projeto o ThermoSafe para os usuários e operação do sistema.
-
+👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓A Comunicação do Sistema ThermoSafe
+Relacionamento com os stakeholders
 
 ## 📄 Licença
 Distribuído sob licença **MIT** (para o site da ThermoSafe).
