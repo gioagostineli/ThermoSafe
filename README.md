@@ -55,7 +55,7 @@
 - `assets/images/logo` — Logo em 3 tamanhos para responsividade
 - `assets/styles/style-*.css` — Estilos do tema institucional
 
-#👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓 Padrão de Formatação — Projeto ThermoSafe
+👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓 Padrão de Formatação — Site ThermoSafe
 Este projeto utiliza arquivos de configuração para manter **padronização de código** entre todos os desenvolvedores.
 
 ## 📌 Arquivos incluídos
