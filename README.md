@@ -12,7 +12,7 @@
 - **Aviso**: As badges **ANVISA/RDC 430** e **LGPD** indicam **alinhamento e boas práticas**.
 - Não constituem atestado oficial ou certificação por parte das autoridades competentes.
 
-👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓ThermoSafe — Monitoramento Inteligente de Temperatura e Umidade (24×7)
+👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓ThermoSafe — Temperatura e Umidade (24×7)
 ---
 
 ## 🔎 Visão Geral 
