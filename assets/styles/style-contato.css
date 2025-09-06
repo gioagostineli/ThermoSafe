@@ -28,6 +28,7 @@ textarea{
      margin-bottom: 20px;
      box-shadow: 10px 5px 5px var(--ts-color-blue);
      width: 80%;
+     height: 150px;
      margin-left: auto;
      margin-right: auto;
 }
@@ -49,4 +50,24 @@ button{
      color:#0A3D62;
      background:#fff;
 }
- 
+.ts-form-row{
+     display:flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 80%;
+     margin: 12px auto;
+     gap: 16px;
+
+}
+.ts-form-row label{
+     flex: 0 0 10%;  /*ocupa 20% */
+     font-weight:600;
+     text-align: right;
+}
+.ts-form-row input{
+     flex:1;
+     padding: 10px;
+     border: 1px solid#ccc;
+     border-radius: 8px;
+     font-size: 16px;
+}
