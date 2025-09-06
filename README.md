@@ -1,4 +1,4 @@
-# ThermoSafe — Monitoramento Inteligente de Temperatura e Umidade (24×7)
+#👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓ThermoSafe — Monitoramento Inteligente de Temperatura e Umidade (24×7)
 
 ![ANVISA RDC 430 Alinhado](https://img.shields.io/badge/ANVISA-RDC%20430%2F2020%20(alinhado)-0057A3?style=for-the-badge)
 ![LGPD Ready](https://img.shields.io/badge/LGPD-Ready-2E7D32?style=for-the-badge)
@@ -15,8 +15,8 @@
 
 ---
 
-## <span style="color:#4B5320;"> 🔎 Visão Geral </span>
-<h2 style="color:#4B5320;">🔎 Visão Geral</h2>
+## 🔎 Visão Geral 
+
 **ThermoSafe** é uma plataforma de **monitoramento contínuo (24×7)** de temperatura e umidade para cadeias frias (farmácias, hospitais, laboratórios e supermercados), com **alertas em tempo real**, **dashboards** e **histórico auditável** — tudo com foco em **confiabilidade**, **segurança** e **conformidade regulatória**.
 
 - **Front-end Web (site institucional)**: páginas *Home*, *Soluções*, *Setores*, *Clientes*, *Contato* e **Política de Privacidade** (`Politica.html`).
@@ -55,7 +55,7 @@
 - `assets/images/logo` — Logo em 3 tamanhos para responsividade
 - `assets/styles/style-*.css` — Estilos do tema institucional
 
-# Padrão de Formatação — Projeto ThermoSafe
+#👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓 Padrão de Formatação — Projeto ThermoSafe
 Este projeto utiliza arquivos de configuração para manter **padronização de código** entre todos os desenvolvedores.
 
 ## 📌 Arquivos incluídos
@@ -77,7 +77,7 @@ Este projeto utiliza arquivos de configuração para manter **padronização de 
   - **Quebra de linha:** padrão Unix (LF).
 
 ---
-# Plataforma ThermoSafe
+#👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓 Plataforma ThermoSafe
 A seguir, uma pequena descrição de como foi feito a Plataforma ThermoSafe para os usuários e operação do sistema.
 
 ## Segurança
@@ -167,7 +167,7 @@ streamlit run dashboard.py --server.port %STREAMLIT_PORT%
 - **Backups** diários; restauração testada; **multi-AZ** (RDS).
 
 ---
-# Comunicação do Sistema ThermoSafe
+#👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓A Comunicação do Sistema ThermoSafe
 A seguir, uma pequena descrição de como foi projeto o ThermoSafe para os usuários e operação do sistema.
 
 
