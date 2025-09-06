@@ -54,9 +54,32 @@
 - `assets/images/logo` — Logo em 3 tamanhos para responsividade
 - `assets/styles/style-*.css` — Estilos do tema institucional
 
----
+# Padrão de Formatação — Projeto ThermoSafe
+Este projeto utiliza arquivos de configuração para manter **padronização de código** entre todos os desenvolvedores.
 
-### Segurança
+## 📌 Arquivos incluídos
+- `.editorconfig` → garante indentação consistente (tab = 4 espaços).
+- `.prettierrc` → configura o Prettier/VSCode para formatar HTML, CSS e JS de forma padronizada.
+
+## ⚙️ Como usar no VSCode
+1. Instale a extensão **EditorConfig for VS Code**, a partir do ícone extensão do VS Code.
+2. Instale a extensão **Prettier - Code formatter**, a partir do ícone extensão do VS Code.
+3. Certifique-se de que o Prettier é o formatador padrão:
+   - Pressione `Ctrl + Shift + P` → "Format Document With..."
+   - Selecione **Prettier** e clique em **Set as Default**.
+4. Para formatar um arquivo manualmente: `Shift + Alt + F`.
+
+## ✅ Resultado
+- Sempre que salvar, o código será reformatado automaticamente:
+  - **Indentação:** Tab equivalente a 4 espaços.
+  - **HTML/CSS/JS:** mesmo estilo para toda a equipe.
+  - **Quebra de linha:** padrão Unix (LF).
+
+---
+# Sistema ThermoSafe
+A seguir, uma pequena descrição de como foi projeto o ThermoSafe para os usuários e operação do sistema.
+
+## Segurança
 - **Criptografia ponta a ponta** (TLS 1.2/1.3; opção mTLS por dispositivo).
 - **Pseudonimização** e perfis de acesso mínimos (LGPD).
 - **Logs** e trilhas de auditoria (tabelas de log e *status flags*).
@@ -143,6 +166,9 @@ streamlit run dashboard.py --server.port %STREAMLIT_PORT%
 - **Backups** diários; restauração testada; **multi-AZ** (RDS).
 
 ---
+# Comunicação do Sistema ThermoSafe
+A seguir, uma pequena descrição de como foi projeto o ThermoSafe para os usuários e operação do sistema.
+
 
 ## 📄 Licença
 Distribuído sob licença **MIT** (para o site da ThermoSafe).
