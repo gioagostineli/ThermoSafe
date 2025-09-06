@@ -9,7 +9,8 @@
 ![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20RDS%20%7C%20S3-232F3E?style=for-the-badge&logo=amazonaws)
 ![Made in Brazil](https://img.shields.io/badge/Made%20in-Brazil-009739?style=for-the-badge)
 
-> **Aviso**: As badges **ANVISA/RDC 430** e **LGPD** indicam **alinhamento e boas práticas**. Não constituem atestado oficial ou certificação por parte das autoridades competentes.
+> **Aviso**: As badges **ANVISA/RDC 430** e **LGPD** indicam **alinhamento e boas práticas**.
+> Não constituem atestado oficial ou certificação por parte das autoridades competentes.
 
 #👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓ThermoSafe — Monitoramento Inteligente de Temperatura e Umidade (24×7)
 ---
