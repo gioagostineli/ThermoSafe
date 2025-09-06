@@ -1,4 +1,4 @@
-#👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓ThermoSafe — Monitoramento Inteligente de Temperatura e Umidade (24×7)
+##👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓ThermoSafe — Monitoramento Inteligente de Temperatura e Umidade (24×7)
 
 ![ANVISA RDC 430 Alinhado](https://img.shields.io/badge/ANVISA-RDC%20430%2F2020%20(alinhado)-0057A3?style=for-the-badge)
 ![LGPD Ready](https://img.shields.io/badge/LGPD-Ready-2E7D32?style=for-the-badge)
