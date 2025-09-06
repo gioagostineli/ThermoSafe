@@ -1,5 +1,3 @@
-#👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓ThermoSafe — Monitoramento Inteligente de Temperatura e Umidade (24×7)
-
 ![ANVISA RDC 430 Alinhado](https://img.shields.io/badge/ANVISA-RDC%20430%2F2020%20(alinhado)-0057A3?style=for-the-badge)
 ![LGPD Ready](https://img.shields.io/badge/LGPD-Ready-2E7D32?style=for-the-badge)
 ![ESG](https://img.shields.io/badge/ESG-Efici%C3%AAncia%20Energ%C3%A9tica-00897B?style=for-the-badge)
@@ -13,6 +11,7 @@
 
 > **Aviso**: As badges **ANVISA/RDC 430** e **LGPD** indicam **alinhamento e boas práticas**. Não constituem atestado oficial ou certificação por parte das autoridades competentes.
 
+#👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓ThermoSafe — Monitoramento Inteligente de Temperatura e Umidade (24×7)
 ---
 
 ## 🔎 Visão Geral 
