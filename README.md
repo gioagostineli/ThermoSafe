@@ -16,6 +16,7 @@
 ---
 
 ## <span style="color:#4B5320;"> 🔎 Visão Geral </span>
+<h2 style="color:#4B5320;">🔎 Visão Geral</h2>
 **ThermoSafe** é uma plataforma de **monitoramento contínuo (24×7)** de temperatura e umidade para cadeias frias (farmácias, hospitais, laboratórios e supermercados), com **alertas em tempo real**, **dashboards** e **histórico auditável** — tudo com foco em **confiabilidade**, **segurança** e **conformidade regulatória**.
 
 - **Front-end Web (site institucional)**: páginas *Home*, *Soluções*, *Setores*, *Clientes*, *Contato* e **Política de Privacidade** (`Politica.html`).
