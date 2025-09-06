@@ -166,7 +166,6 @@ streamlit run dashboard.py --server.port %STREAMLIT_PORT%
 Distribuído sob licença **MIT** (para o site da ThermoSafe).
 
 Para aquisição dos Serviços da ThermoSafe, faça um contato com a área comercial
----
 
 ## 📬 Contato
 **ThermoSafe** — *Confiabilidade em cada número.*  
