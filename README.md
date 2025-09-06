@@ -12,7 +12,7 @@
 - **Aviso**: As badges **ANVISA/RDC 430** e **LGPD** indicam **alinhamento e boas práticas**.
 - Não constituem atestado oficial ou certificação por parte das autoridades competentes.
 ---
-👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓ThermoSafe — Temperatura e Umidade (24×7)
+👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓ThermoSafe — Temperatura e Umidade (24×7)👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓
 
 
 ## 🔎 Visão Geral 
@@ -52,7 +52,7 @@
 - `assets/styles/style-*.css` — Estilos do tema institucional
 
 ---
-👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓 Padrão de Formatação
+👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓 Padrão de Formatação👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓
 - Este projeto utiliza arquivos de configuração para manter **padronização de código** entre todos os desenvolvedores.
 
 ## 📌 Arquivos incluídos
@@ -74,7 +74,7 @@
   - **Quebra de linha:** padrão Unix (LF).
 
 ---
-👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓 Plataforma ThermoSafe
+👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓 Plataforma ThermoSafe👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓
 - Uma pequena descrição de como foi feito a Plataforma ThermoSafe para os usuários e operação do sistema.
 
 ## Segurança
@@ -160,7 +160,7 @@ streamlit run dashboard.py --server.port %STREAMLIT_PORT%
 - **Backups** diários; restauração testada; **multi-AZ** (RDS).
 
 ---
-👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓ThermoSafe e os Stakeholders
+👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓ThermoSafe e os Stakeholders👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓
 
 ## 📄 Licença
 Distribuído sob licença **MIT** (para o site da ThermoSafe).
