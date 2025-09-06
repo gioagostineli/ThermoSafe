@@ -73,7 +73,7 @@
 
 ---
 
-## ⚙️ Setup Rápido (Desenvolvimento)
+## ⚙️ Setup Rápido (Apenas para o Desenvolvimento!!!)
 ### Pré-requisitos
 - **Python 3.13+**
 - **pip** e **virtualenv**
@@ -111,14 +111,14 @@ Crie um `.env` (NÃO COMMITAR) com algo como:
 DB_HOST=localhost
 DB_USER=root
 DB_PASS=senha_aqui
-DB_NAME=thermo_db
+DB_NAME=thermo_dados
 
 # Flask
 FLASK_SECRET=troque_isto
-FLASK_PORT=5000
+FLASK_PORT=5003
 
 # Streamlit
-STREAMLIT_PORT=8501
+STREAMLIT_PORT=8507
 ```
 
 ### 4) Rodar
