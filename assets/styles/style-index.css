@@ -10,7 +10,7 @@
  @font-face {
      font-family: 'Outfit';
     /*trazendo a fonte*/
-     src: url("assets/font/Outfit/Outfit-VariableFont_wght.ttf") format("truetype");
+     src: url("/assets/font/Outfit/Outfit-VariableFont_wght.ttf") format("truetype");
      font-weight: 100 900;
      font-style: normal;
      font-display: swap;
