@@ -1,0 +1,24 @@
+.ts-legal {
+    text-align: left;            /* o .page é centralizado; aqui deixamos o texto corrido */
+    line-height: 1.7;
+}
+
+.ts-legal h1 {
+    margin: 8px 0 12px; 
+}
+
+.ts-legal h2 {
+    margin: 22px 0 8px; 
+}
+      
+.ts-legal ul { 
+    margin-left: 1.2rem; 
+}
+      
+.ts-legal p, .ts-legal li {
+     color: var(--ts-color-blue); 
+}
+      
+.ts-legal li { 
+    margin: 2px 0; 
+}
