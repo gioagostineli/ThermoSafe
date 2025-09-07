@@ -1,5 +1,6 @@
 <!doctype html>
-<html lang="pt-br">
+<html 
+	lang="pt-br">
 	<head>
 		<meta 
 			charset="UTF-8"
@@ -87,69 +88,73 @@
 						action="https://formsubmit.co/thermosafe2030@gmail.com" 
 						method="POST"
 					>
-					<fieldset>
-						<h1>
-							Fale Conosco
-						</h1>
-						<div 
-							class="ts-form-row">
-    						<label 
-								for="nome">
-									Nome:
-							</label>
-    						<input 
-								type="text"
-								id="nome" 
-								name="nome" 
-								placeholder="Digite seu nome completo" 
-								required
-								pattern="[A-Za-zÀ-ÿ\s]+"
-								title="Digite apenas letras e espaços"
-							>
-  						</div>
-						<div 
-							class="ts-form-row">
-    						<label 
-								for="telefone">
-									Telefone:
-							</label>
-    						<input 
-								type="text" 
-								id="telefone" 
-								name="telefone" 
-								placeholder="Digite seu número" 
-								required
-								pattern="^\(\d{2}\)\d{4,5}-\d{4}$"
-								title="Digite no formato(XX)XXXXX-XXXX ou (XX)XXXX-XXXX"
-							>
-  						</div>
-						<div 
-							class="ts-form-row">
-    						<label 
-								for="email">
-								E-mail:
-							</label>
-    						<input 
-								type="text" 
-								id="email" 
-								name="email" 
-								placeholder="Digite seu e-mail com @" 
-								required
-								pattern="^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$"
-								title="Digite um e-mail válido"
-							>
-  						</div>
-						<textarea 
-							name="mensagem" 
-							rows="4" 
-							cols="30" 
-							placeholder="Escreva aqui a sua mensagem"></textarea>
-							<!-- Atenção ao fato do tag textarea estar logo apos a mensagem para deixar como conteúdo vazio -->
-						<button 
-							type="submit">
-								Enviar
-						</button>
-					</fieldset>
+						<fieldset>
+							<h1>
+								Fale Conosco
+							</h1>
+							<div 
+								class="ts-form-row">
+								<label 
+									for="nome">
+										Nome:
+								</label>
+								<input 
+									type="text"
+									id="nome" 
+									name="nome" 
+									placeholder="Digite seu nome completo" 
+									required
+									pattern="[A-Za-zÀ-ÿ\s]+"
+									title="Digite apenas letras e espaços"
+								>
+							</div>
+
+							<div 
+								class="ts-form-row">
+								<label 
+									for="telefone">
+										Telefone:
+								</label>
+								<input 
+									type="text" 
+									id="telefone" 
+									name="telefone" 
+									placeholder="Digite seu número" 
+									required
+									pattern="^\(\d{2}\)\d{4,5}-\d{4}$"
+									title="Digite no formato(XX)XXXXX-XXXX ou (XX)XXXX-XXXX"
+								>
+							</div>
+
+							<div 
+								class="ts-form-row">
+								<label 
+									for="email">
+									E-mail:
+								</label>
+								<input 
+									type="text" 
+									id="email" 
+									name="email" 
+									placeholder="Digite seu e-mail com @" 
+									required
+									pattern="^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$"
+									title="Digite um e-mail válido"
+								>
+							</div>
+
+							<textarea 
+								name="mensagem" 
+								rows="4" 
+								cols="30" 
+								placeholder="Escreva aqui a sua mensagem"></textarea>
+								<!-- Atenção ao fato do tag textarea estar logo apos a mensagem para deixar como conteúdo vazio -->
+							
+							<button 
+								type="submit">
+									Enviar
+							</button>
+						</fieldset>
 					</form>
 				</div>	
 			</section>
@@ -169,5 +174,19 @@
 				</a>
 			</div>
 		</footer>
+		<!-- Início: ThermoSafe Tracker (JS) -->
+		<!-- Objetivo: registrar pageview no endpoint PHP (/analytics/track.php) -->
+		<script 
+            src="assets/js/ts-track.js">
+        </script>
+        <noscript>
+            <img 
+                src="/analytics/track.php?page=/noscript" 
+                alt="" 
+                width="1" 
+                height="1" 
+                style="border:0; position:absolute; clip:rect(0 0 0 0);"
+            >
+        </noscript>
 	</body>
 </html>

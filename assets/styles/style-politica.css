@@ -22,3 +22,10 @@
 .ts-legal li { 
     margin: 2px 0; 
 }
+
+.page_txt {
+    width:80%;
+    margin-inline:auto;
+    text-align: left;
+    font-size: 20px;   
+}

@@ -1,6 +1,15 @@
-version: "3.8"
-
 services:
+  web:
+    build: .                # ⬅️ usa o Dockerfile recém-criado
+    container_name: web_thermosafe
+    restart: always
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www/html    # mantém o mapeamento do seu projeto
+    depends_on:
+      - db
+
   db:
     image: mysql:8.0
     container_name: mysql_thermosafe
