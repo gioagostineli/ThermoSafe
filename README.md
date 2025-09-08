@@ -1,5 +1,8 @@
 ![ANVISA RDC 430 Alinhado](https://img.shields.io/badge/ANVISA-RDC%20430%2F2020%20(alinhado)-0057A3?style=for-the-badge)
+![ANVISA RDC 430]         (https://img.shields.io/badge/ANVISA-RDC%20430%2F2020-             0057A3?style=for-the-badge)  
+
 ![LGPD Ready](https://img.shields.io/badge/LGPD-Ready-2E7D32?style=for-the-badge)
+![LGPD Ready](https://img.shields.io/badge/LGPD-Ready-2E7D32?style=for-the-badge)  
 ![ESG](https://img.shields.io/badge/ESG-Efici%C3%AAncia%20Energ%C3%A9tica-00897B?style=for-the-badge)
 ![ODS](https://img.shields.io/badge/ODS-3%E2%80%A2%209%E2%80%A2%2012%E2%80%A2%2013-6A1B9A?style=for-the-badge)
 ![Python 3.13](https://img.shields.io/badge/Python-3.13-3776AB?style=for-the-badge&logo=python)
@@ -12,8 +15,8 @@
 
 ## 🏛️ Institucional & Regulatório
 
-![ANVISA RDC 430](https://img.shields.io/badge/ANVISA-RDC%20430%2F2020-0057A3?style=for-the-badge)  
-![LGPD Ready](https://img.shields.io/badge/LGPD-Ready-2E7D32?style=for-the-badge)  
+
+
 ![ESG](https://img.shields.io/badge/ESG-Efici%C3%AAncia%20Energ%C3%A9tica-00897B?style=for-the-badge)  
 ![ODS](https://img.shields.io/badge/ODS-3%E2%80%A2%209%E2%80%A2%2012%E2%80%A2%2013-6A1B9A?style=for-the-badge)  
 ![ISO 27001](https://img.shields.io/badge/ISO-27001-1E88E5?style=for-the-badge)  
