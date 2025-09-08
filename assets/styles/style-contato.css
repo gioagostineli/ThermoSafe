@@ -1,83 +1,102 @@
+/* ===== Página: Contato ===== */
+
+.ts-contato-topo{
+  background: linear-gradient(180deg, var(--ts-color-brand) 0%, #0c4d75 100%);
+  color: var(--ts-color-text-inverse);
+  padding: var(--ts-space-8) var(--ts-space-6);
+  border-radius: var(--ts-radius-300);
+  box-shadow: var(--ts-shadow-200);
+  margin-top: var(--ts-space-7);
+}
+
 .ts-card-contato{
-     width: 90%;
-     margin-left: auto;
-     margin-right: auto;
-     text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 360px;
+  gap: var(--ts-space-6);
+  margin-top: var(--ts-space-6);
+  background: var(--ts-color-surface);
+  border-radius: var(--ts-radius-300);
+  box-shadow: var(--ts-shadow-200);
+  padding: var(--ts-space-6);
 }
 
-fieldset{
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     background:#fff;
-     margin-top:var(--ts-margin-top);
-     padding:10px;
-     border-radius:16px;
-     box-shadow:0 2px 12px rgba(0,0,0,.08);
-}
-
-input{
-     border-radius: 16px;
-     margin-bottom: 20px;
-     box-shadow: 10px 5px 5px var(--ts-color-blue);
-     width: 100%;
-     margin-left: auto;
-     margin-right: auto;
-}
 .ts-form-row{
-     display:flex;
-     align-items: center;
-     justify-content: space-between;
-     width: 80%;
-     margin: 12px auto;
-     gap: 16px;
-
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: var(--ts-space-4);
+  align-items: center;
+  margin-bottom: var(--ts-space-4);
 }
 
 .ts-form-row label{
-     flex: 0 0 10%;  /*ocupa 20% */
-     font-weight:600;
-     text-align: right;
+  font-weight: 600;
+  color: var(--ts-color-brand-ink);
 }
 
-.ts-form-row input{
-     flex:1;
-     padding: 10px;
-     border: 1px solid#ccc;
-     border-radius: 8px;
-     font-size: 16px;
+.ts-form-row input,
+.ts-form-row textarea{
+  width: 100%;
+  padding: var(--ts-space-3) var(--ts-space-4);
+  border-radius: var(--ts-radius-200);
+  border: 2px solid var(--ts-color-brand);
+  outline: none;
+  box-shadow: 0 4px 0 rgba(10, 61, 98, .25); /* relevo azul */
+  font-family: var(--ts-font-family);
+  font-size: var(--ts-font-size-200);
 }
 
-textarea{
-     width: 80%;
-     margin-left: auto;
-     margin-right: auto;
-     height: 150px;
-     border: 1px solid#ccc;
-     border-radius: 16px;
-     margin-bottom: 20px;
-     padding: 10px;
-     box-shadow: 10px 5px 5px var(--ts-color-blue);
-     font-size: 16px;     
-     font-family: inherit;   /* 🔹 garante mesma fonte dos inputs */
+.ts-form-row textarea{
+  min-height: 180px;
+  resize: vertical;
 }
 
-button{
-     padding:.9rem 1.2rem;
-     border-radius:999px;
-     font-weight:700;
-     border:2px solid #0A3D62;
-     color:#0A3D62;
-     background:#fff;
-     width: 10%;
-     margin-left: auto;
-     margin-right: auto;
-     font-size: 16px;
+.ts-contato-lateral{
+  background: #0f3d5b;
+  color: #e6f3ff;
+  border-radius: var(--ts-radius-200);
+  padding: var(--ts-space-6);
+  box-shadow: var(--ts-shadow-200);
 }
 
-/* cor do placeholder do textarea e inputs */
-input::placeholder,
-textarea::placeholder {
-  color: #6e6e86;   /* um cinza médio visível sobre o fundo claro */
-  opacity: 1;       /* alguns browsers reduzem a opacidade por padrão */
+.ts-contato-lateral h3{ /* apenas para os H3 que estao no ts-contato-lateral */      
+  margin: 0 0 var(--ts-space-4);
+}
+
+.ts-contato-lateral .item{ /* apenas para os itens que estao no ts-contato-lateral */
+  display: flex;
+  align-items: center;
+  gap: var(--ts-space-3);
+  padding: var(--ts-space-2) 0;
+}
+
+.ts-contato-actions{
+  margin-top: var(--ts-space-6);
+}
+
+.ts-contato-actions .btn{
+  display:inline-block;
+  padding:.8rem 1.2rem;
+  border-radius: var(--ts-btn-radius);
+  background: var(--ts-color-brand);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.ts-contato-actions .btn:hover{
+  filter: brightness(1.05);
+}
+
+/* Mapa (container) */
+.ts-mapa{
+  margin-top: var(--ts-space-6);
+  border-radius: var(--ts-radius-300);
+  overflow: hidden;
+  box-shadow: var(--ts-shadow-200);
+}
+
+/* Responsivo */
+@media (max-width: 980px){
+  .ts-card-contato{ grid-template-columns: 1fr; }
+  .ts-form-row{ grid-template-columns: 1fr; }
 }
