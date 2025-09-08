@@ -111,6 +111,12 @@ http://localhost:8081			phpMyAdmin
   - **HTML/CSS/JS:** mesmo estilo para toda a equipe.
   - **Quebra de linha:** padrão Unix (LF).
 
+## ✅ DashBoard
+- Visualização das estatísticas diretamente no próprio Site:
+<img width="1324" height="782" alt="image" src="https://github.com/user-attachments/assets/a425e5ea-56ef-4b7f-aef3-c3d4dcf994e5" />
+
+<img width="733" height="294" alt="image" src="https://github.com/user-attachments/assets/746ce2e6-e105-4f94-8239-278331044acf" />
+
 ---
 👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓 Plataforma ThermoSafe👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓
 - Uma pequena descrição de como foi feito a Plataforma ThermoSafe para os usuários e operação do sistema.
