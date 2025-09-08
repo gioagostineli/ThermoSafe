@@ -69,12 +69,14 @@ http://localhost:8081			phpMyAdmin
 - `docker-compose.yml` — para montagem do espelho do mysql+apache
 - `dockerfile` — parametros para o build do docker-compose.yml
 - `assets` — **DIRETÓRIO assets**
+- `assets/documents` — Documentos auxiliares politica de privacidade
 - `assets/font` — Font externa para Font-Face
 - `assets/images/cliente` — Logo dos clientes do Grupo Union
 - `assets/images/evolucao` — Quadro sintético da história da Union, com 3 tamanhos
 - `assets/images/favicon` — Icon para utilização como FAVICON
 - `assets/images/fundo` — Imagem de fundo do site
 - `assets/images/logo` — Logo em 3 tamanhos para responsividade
+- `assets/js/ts-track.js` — Programa JavaScript para captação do Trafic Tracker, amplamente comentado
 - `assets/styles/style-*.css` — Estilos do tema institucional
 - `analytics` — **DIRETÓRIO analytics**
 - `analytics/config.php` — para configurar o banco de dados
@@ -85,8 +87,7 @@ http://localhost:8081			phpMyAdmin
 - `analytics/admin/guard.php` — para sair em caso de erro
 - `analytics/admin/config.login.php` — login
 - `analytics/admin/config.logout.php` — logout
-- 
-- 
+- `Docto-Paulo` — Briefing para Paulo
 
 ---
 👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓 Padrão de Formatação👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓
