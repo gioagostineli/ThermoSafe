@@ -68,7 +68,7 @@ http://localhost:8081			phpMyAdmin
 - `prettierrc` — para config do vs code
 - `docker-compose.yml` — para montagem do espelho do mysql+apache
 - `dockerfile` — parametros para o build do docker-compose.yml
-- `assets` — **DIRETORIO assets**
+- `assets` — **DIRETÓRIO assets**
 - `assets/font` — Font externa para Font-Face
 - `assets/images/cliente` — Logo dos clientes do Grupo Union
 - `assets/images/evolucao` — Quadro sintético da história da Union, com 3 tamanhos
@@ -76,7 +76,7 @@ http://localhost:8081			phpMyAdmin
 - `assets/images/fundo` — Imagem de fundo do site
 - `assets/images/logo` — Logo em 3 tamanhos para responsividade
 - `assets/styles/style-*.css` — Estilos do tema institucional
-- `analytics` — **DIRETORIO analytics**
+- `analytics` — **DIRETÓRIO analytics**
 - `analytics/config.php` — para configurar o banco de dados
 - `analytics/track.php` — é o trafic tracker
 - `analytics/admin/.htaccess` — Arquivo de acesso
