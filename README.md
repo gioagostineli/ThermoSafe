@@ -58,13 +58,17 @@ http://localhost:8081			phpMyAdmin
 - **Escalabilidade**: arquitetura pronta para centenas/milhares de módulos (ESP32).
 
 ## 🧭 Páginas do Site
+- `README.MD` — Descritivo geral do Site
 - `index.html` — Página inicial (visão geral e diferenciais)
 - `solucoes.html` — Produtos e serviços oferecidos
 - `setores.html` — Setores atendidos (saúde, varejo, etc.)
 - `clientes.html` — (opcional) Vitrine de clientes
 - `contato.html` — Formulário de contato (WhatsApp/telefone)
-- `Politica.html` — **Política de Privacidade** (LGPD)
-- `assets/documents` — Documentos auxiliares
+- `editorconfig` — para config do vs code
+- `prettierrc` — para config do vs code
+- `docker-compose.yml` — para montagem do espelho do mysql+apache
+- `dockerfile` — parametros para o build do docker-compose.yml
+- `assets` — **DIRETORIO assets**
 - `assets/font` — Font externa para Font-Face
 - `assets/images/cliente` — Logo dos clientes do Grupo Union
 - `assets/images/evolucao` — Quadro sintético da história da Union, com 3 tamanhos
@@ -72,6 +76,17 @@ http://localhost:8081			phpMyAdmin
 - `assets/images/fundo` — Imagem de fundo do site
 - `assets/images/logo` — Logo em 3 tamanhos para responsividade
 - `assets/styles/style-*.css` — Estilos do tema institucional
+- `analytics` — **DIRETORIO analytics**
+- `analytics/config.php` — para configurar o banco de dados
+- `analytics/track.php` — é o trafic tracker
+- `analytics/admin/.htaccess` — Arquivo de acesso
+- `analytics/admin/config.admin.php` — configuração de senhas
+- `analytics/admin/dashboard.php` — dashboard de estatísticas
+- `analytics/admin/guard.php` — para sair em caso de erro
+- `analytics/admin/config.login.php` — login
+- `analytics/admin/config.logout.php` — logout
+- 
+- 
 
 ---
 👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓 Padrão de Formatação👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓
