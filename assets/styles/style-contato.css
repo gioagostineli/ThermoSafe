@@ -1,5 +1,5 @@
 .ts-card-contato{
-     width: 90%;
+     width: 100%;
      margin-left: auto;
      margin-right: auto;
      text-align: center;
@@ -80,4 +80,65 @@ input::placeholder,
 textarea::placeholder {
   color: #6e6e86;   /* um cinza médio visível sobre o fundo claro */
   opacity: 1;       /* alguns browsers reduzem a opacidade por padrão */
+}
+
+/* ====== Contato Direto ====== */
+.ts-contato-direto{
+  display: flex;
+  justify-content: center;     /* centraliza o card no container */
+  margin-top: var(--ts-space-6, 24px);
+}
+
+.ts-contato-direto .ts-card-contato{
+  width: 100%;                  /* largura centralizada */
+  
+  padding: var(--ts-space-5, 20px);
+  border-radius: var(--ts-radius-300, 20px);
+  background: #fff;
+  box-shadow: var(--ts-shadow-200, 0 6px 18px rgba(0,0,0,.14));
+  text-align: left;
+}
+
+
+
+.ts-contato-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;   /* duas colunas */
+  gap: var(--ts-space-6, 24px);
+  margin-top: var(--ts-space-4, 16px);
+}
+
+.ts-contato-item{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 6px 0;
+  font-size: 16px;
+}
+
+.ts-contato-item .icon{
+  display: inline-flex;
+  width: 22px;
+  height: 22px;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.ts-contato-item .icon.phone{ color:#0A3D62; }
+.ts-contato-item .icon.whatsapp{ color:#25D366; }
+.ts-contato-item .icon.email{ color:#D93025; }     /* vermelho clássico email */
+.ts-contato-item .icon.instagram{ color:#E1306C; }
+.ts-contato-item .icon.linkedin{ color:#0A66C2; }
+
+.ts-contato-item a{
+  color: var(--ts-color-blue, #0A3D62);
+  text-decoration: none;
+}
+.ts-contato-item a:hover{ text-decoration: underline; }
+
+/* Responsivo: 1 coluna no mobile */
+@media (max-width: 720px){
+  .ts-contato-grid{ grid-template-columns: 1fr; }
+  .ts-contato-dir{ margin-top: var(--ts-space-4, 16px); }
 }
