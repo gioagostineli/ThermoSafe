@@ -1,26 +1,25 @@
 ## 🏛️ Institucional & Regulatório
 ![ANVISA RDC 430 Alinhado](https://img.shields.io/badge/ANVISA-RDC%20430%2F2020%20(alinhado)-0057A3?style=for-the-badge)
 ![LGPD Ready](https://img.shields.io/badge/LGPD-Ready-2E7D32?style=for-the-badge)
-![FDA 21 CFR Part 11 Alinhao](https://img.shields.io/badge/FDA-21%20CFR%20Part%2011-546E7A?style=for-the-badge)  
-![WHO GDP](https://img.shields.io/badge/WHO-Good%20Distribution%20Practices-1565C0?style=for-the-badge)  
-![Carbon Neutral Alinhado](https://img.shields.io/badge/Carbon-Neutral-388E3C?style=for-the-badge)  
-![Made in Brazil](https://img.shields.io/badge/Made%20in-Brazil-009739?style=for-the-badge)  
+![FDA 21 CFR Part 11 Alinhao](https://img.shields.io/badge/FDA-21%20CFR%20Part%2011-546E7A?style=for-the-badge)
+![WHO GDP](https://img.shields.io/badge/WHO-Good%20Distribution%20Practices-1565C0?style=for-the-badge)
+![Carbon Neutral Alinhado](https://img.shields.io/badge/Carbon-Neutral-388E3C?style=for-the-badge)
+![Made in Brazil](https://img.shields.io/badge/Made%20in-Brazil-009739?style=for-the-badge)
 ![ESG](https://img.shields.io/badge/ESG-Efici%C3%AAncia%20Energ%C3%A9tica-00897B?style=for-the-badge)
-![ISO 27001 Alinhado](https://img.shields.io/badge/ISO-27001-1E88E5?style=for-the-badge)  
+![ISO 27001 Alinhado](https://img.shields.io/badge/ISO-27001-1E88E5?style=for-the-badge)
 ![ODS](https://img.shields.io/badge/ODS-3%E2%80%A2%209%E2%80%A2%2012%E2%80%A2%2013-6A1B9A?style=for-the-badge)
 ---
 ## ⚙️ Tecnologia & Operação
-![Python 3.13](https://img.shields.io/badge/Python-3.13-3776AB?style=for-the-badge&logo=python)  
+![Python 3.13](https://img.shields.io/badge/Python-3.13-3776AB?style=for-the-badge&logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.25.1-FF4B4B?style=for-the-badge&logo=streamlit)
 ![Flask](https://img.shields.io/badge/Flask-API%20Gateway-000000?style=for-the-badge&logo=flask)
 ![MariaDB](https://img.shields.io/badge/MariaDB-RDS-003545?style=for-the-badge&logo=mariadb)
 ![AWS](https://img.shields.io/badge/AWS-EC2%20%7C%20RDS%20%7C%20S3-232F3E?style=for-the-badge&logo=amazonaws)
 ![Made in Brazil](https://img.shields.io/badge/Made%20in-Brazil-009739?style=for-the-badge)
-![Docker](https://img.shields.io/badge/Docker-Container-2496ED?style=for-the-badge&logo=docker)  
-![GitHub Actions](https://img.shields.io/badge/GitHub-Actions-2088FF?style=for-the-badge&logo=githubactions)  
-![ESP32](https://img.shields.io/badge/ESP32-IoT%20Module-333333?style=for-the-badge&logo=espressif)  
-![MQTT](https://img.shields.io/badge/MQTT-Protocol-660066?style=for-the-badge)  
-![LoRa](https://img.shields.io/badge/LoRa-WAN-00C853?style=for-the-badge)  
+![Docker](https://img.shields.io/badge/Docker-Container-2496ED?style=for-the-badge&logo=docker)
+![GitHub Actions](https://img.shields.io/badge/GitHub-Actions-2088FF?style=for-the-badge&logo=githubactions)
+![ESP32](https://img.shields.io/badge/ESP32-IoT%20Module-333333?style=for-the-badge&logo=espressif)
+
 ---
 
 - **Aviso**: As badges **ANVISA/RDC 430** e **LGPD** indicam **alinhamento e boas práticas**.
