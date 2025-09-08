@@ -35,8 +35,8 @@
 - **Front-end Web (site institucional)**: páginas *Home*, *Soluções*, *Setores*, *Clientes*, *Contato* e **Política de Privacidade** (`Politica.html`).
 - **Aplicação**: painéis (Streamlit), API (Flask), IoT (ESP32) e banco **MariaDB** (RDS/Aurora).
 - **Destaques**: tema escuro, navegação responsiva, logs de ações, gráficos e importação CSV.
-- **HTML**: Para a gestão de Trafic Tracker, criou-se uma função com acesso a banco de dados na nuvem sem captura de dados do user e não use o Google Analitycs.
-- Para demonstração em sala do Trafic Tracker, o link temporariamente será concedido no click do logo e posteriormente somente para link direto.
+- **HTML**: Para a gestão de Traffic Tracker, criou-se uma função com acesso a banco de dados na nuvem sem captura de dados do user e não use o Google Analitycs.
+- Para demonstração em sala do Traffic Tracker, o link temporariamente será concedido no click do logo e posteriormente somente para link direto.
 - **CSS**: utilizou um arquivo Token (Todas as variáveis padrão) Index (para a estrutura base) Específico (Detalhes inerentes a cada página).
 - **Formatação VS Code**: foi disponibilizado no diretorio raiz, 2 arquivos para garantir a padronização de tabs e padrão para HTML, CSS, JS. Os arqivos .editorconfig e .prettierrc devem ser colocados na mesma pasta do index.html.
 
@@ -58,20 +58,36 @@ http://localhost:8081			phpMyAdmin
 - **Escalabilidade**: arquitetura pronta para centenas/milhares de módulos (ESP32).
 
 ## 🧭 Páginas do Site
+- `README.MD` — Descritivo geral do Site
 - `index.html` — Página inicial (visão geral e diferenciais)
 - `solucoes.html` — Produtos e serviços oferecidos
 - `setores.html` — Setores atendidos (saúde, varejo, etc.)
 - `clientes.html` — (opcional) Vitrine de clientes
 - `contato.html` — Formulário de contato (WhatsApp/telefone)
-- `Politica.html` — **Política de Privacidade** (LGPD)
-- `assets/documents` — Documentos auxiliares
+- `editorconfig` — para config do vs code
+- `prettierrc` — para config do vs code
+- `docker-compose.yml` — para montagem do espelho do mysql+apache
+- `dockerfile` — parametros para o build do docker-compose.yml
+- `assets` — **DIRETÓRIO assets**
+- `assets/documents` — Documentos auxiliares politica de privacidade
 - `assets/font` — Font externa para Font-Face
 - `assets/images/cliente` — Logo dos clientes do Grupo Union
 - `assets/images/evolucao` — Quadro sintético da história da Union, com 3 tamanhos
 - `assets/images/favicon` — Icon para utilização como FAVICON
 - `assets/images/fundo` — Imagem de fundo do site
 - `assets/images/logo` — Logo em 3 tamanhos para responsividade
+- `assets/js/ts-track.js` — Programa JavaScript para captação do Traffic Tracker, amplamente comentado
 - `assets/styles/style-*.css` — Estilos do tema institucional
+- `analytics` — **DIRETÓRIO analytics**
+- `analytics/config.php` — para configurar o banco de dados
+- `analytics/track.php` — é o traffic tracker
+- `analytics/admin/.htaccess` — Arquivo de acesso
+- `analytics/admin/config.admin.php` — configuração de senhas
+- `analytics/admin/dashboard.php` — dashboard de estatísticas
+- `analytics/admin/guard.php` — para sair em caso de erro
+- `analytics/admin/config.login.php` — login
+- `analytics/admin/config.logout.php` — logout
+- `Docto-Paulo` — Briefing para Paulo
 
 ---
 👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓 Padrão de Formatação👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓
@@ -94,6 +110,16 @@ http://localhost:8081			phpMyAdmin
   - **Indentação:** Tab equivalente a 4 espaços.
   - **HTML/CSS/JS:** mesmo estilo para toda a equipe.
   - **Quebra de linha:** padrão Unix (LF).
+
+## ✅ Banco de Dados do Traffic Tracker
+- Visualização das estatísticas no banco de dados:
+<img width="1058" height="960" alt="image" src="https://github.com/user-attachments/assets/6e945d28-01e7-4977-a87e-e41da368736d" />
+
+## ✅ DashBoard
+- Visualização das estatísticas por meio visual no próprio Site:
+<img width="1324" height="782" alt="image" src="https://github.com/user-attachments/assets/a425e5ea-56ef-4b7f-aef3-c3d4dcf994e5" />
+
+<img width="733" height="294" alt="image" src="https://github.com/user-attachments/assets/746ce2e6-e105-4f94-8239-278331044acf" />
 
 ---
 👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓 Plataforma ThermoSafe👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓
