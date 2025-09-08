@@ -1,0 +1,65 @@
+/* ========= ThermoSafe — Design Tokens Globais ========= */
+:root{
+  /* Marca & superfícies */
+  --ts-color-brand: #0A3D62;
+  --ts-color-brand-ink: #0A3D62;
+  --ts-color-bg-page: #FFFFFF;
+  --ts-color-surface: #FFFFFF;
+
+  /* Paleta auxiliar */
+  --ts-color-azul: LightSkyBlue;
+  --ts-color-verde: MediumAquamarine;
+  --ts-color-cinza: Silver;
+
+  /* Texto */
+  --ts-color-text: #0A3D62;      /* texto padrão */
+  --ts-color-text-inverse: #FFFFFF;
+
+  /* Tipografia */
+  --ts-font-family: Outfit, system-ui, "Segoe UI", Roboto, Arial, sans-serif;
+  --ts-font-size-100: 14px;
+  --ts-font-size-200: 16px;  /* body */
+  --ts-font-size-300: 18px;
+  --ts-font-size-400: 20px;  /* subtítulos */
+  --ts-font-size-500: 28px;  /* h2 */
+  --ts-font-size-600: 40px;  /* h1 */
+
+  /* Espaçamentos (8pt grid) */
+  --ts-space-0: 0;
+  --ts-space-1: 4px;
+  --ts-space-2: 8px;
+  --ts-space-3: 12px;
+  --ts-space-4: 16px;
+  --ts-space-5: 20px;
+  --ts-space-6: 24px;
+  --ts-space-7: 30px;    /* compatível com antigo --ts-margin-top */
+  --ts-space-8: 36px;
+  --ts-space-10: 48px;
+
+  /* Largura de página */
+  --ts-page-width: 80%;
+  --ts-page-width-sm: 92%;
+
+  /* Raio & sombras */
+  --ts-radius-100: 8px;
+  --ts-radius-200: 12px;
+  --ts-radius-300: 20px;
+  --ts-shadow-100: 0 2px 8px rgba(0,0,0,.08);
+  --ts-shadow-200: 0 6px 18px rgba(0,0,0,.14);
+
+  /* Botões/links */
+  --ts-btn-radius: 999px;
+  --ts-btn-border: 2px solid var(--ts-color-brand);
+}
+
+/* Tema escuro (opcional futuro) */
+@media (prefers-color-scheme: dark){
+  :root{
+    --ts-color-bg-page: #0b1620;
+    --ts-color-surface: #0f1e2b;
+    --ts-color-text: #d6e7ff;
+    --ts-color-brand-ink: #d6e7ff;
+    --ts-shadow-100: 0 2px 8px rgba(0,0,0,.35);
+    --ts-shadow-200: 0 6px 18px rgba(0,0,0,.45);
+  }
+}
