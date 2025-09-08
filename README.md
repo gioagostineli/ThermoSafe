@@ -36,6 +36,7 @@
 - **Aplicação**: painéis (Streamlit), API (Flask), IoT (ESP32) e banco **MariaDB** (RDS/Aurora).
 - **Destaques**: tema escuro, navegação responsiva, logs de ações, gráficos e importação CSV.
 - **HTML**: Para a gestão de Trafic Tracker, criou-se uma função com acesso a banco de dados na nuvem sem captura de dados do user e não use o Google Analitycs.
+- Para demonstração em sala do Trafic Tracker, o link temporariamente será concedido no click do logo e posteriormente somente para link direto.
 - **CSS**: utilizou um arquivo Token (Todas as variáveis padrão) Index (para a estrutura base) Específico (Detalhes inerentes a cada página).
 - **Formatação VS Code**: foi disponibilizado no diretorio raiz, 2 arquivos para garantir a padronização de tabs e padrão para HTML, CSS, JS. Os arqivos .editorconfig e .prettierrc devem ser colocados na mesma pasta do index.html.
 
