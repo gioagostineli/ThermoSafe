@@ -7,6 +7,7 @@
      --ts-color-azul:LightSkyBlue;
      --ts-color-cinza:Silver;
      --ts-font: Outfit, system-ui, Segoe UI, Roboto, Arial, sans-serif;
+     --ts-logo-padding: 2px 2px 2px 2px; 
 }
 
 @font-face {
@@ -17,3 +18,4 @@
      font-style: normal;
      font-display: swap;
 }
+

@@ -22,7 +22,7 @@
 }
  .ts-logo{
      background-color: white;
-     padding: 2px 2px 2px 2px;
+     padding: var(--ts-logo-padding);
      border-radius:16px;
      border: 2px solid green;
 }
