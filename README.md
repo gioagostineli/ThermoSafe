@@ -219,3 +219,10 @@ Para aquisição dos Serviços da ThermoSafe, faça um contato com a área comer
 **ThermoSafe** — *Confiabilidade em cada número.*  
 - E-mail: `thermosafe2030@gmail.com`
 - Telefone: `55.11.98077.1968`
+
+---
+👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓Check-List👩‍🎓👩‍🎓👩‍🎓👩‍🎓👩‍🎓
+<img width="1017" height="470" alt="image" src="https://github.com/user-attachments/assets/ae4a482b-b496-4a91-b95a-380fcc5e01a8" />
+
+Check-List conferido no arquivo ThermoSafe/Docto-Paulo
+
