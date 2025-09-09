@@ -142,3 +142,8 @@ textarea::placeholder {
   .ts-contato-grid{ grid-template-columns: 1fr; }
   .ts-contato-dir{ margin-top: var(--ts-space-4, 16px); }
 }
+
+.icone{
+  width: 24px;
+  height: 24px;
+}
